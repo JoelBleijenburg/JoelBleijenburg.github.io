@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <audio id="alarm-sound" loop>
+        <source src="sounds/alarm1.wav" type="audio/wav">
+    </audio>
+    <div class="stopaudio">
+        <button id="stop">stop alarm</button>
+    </div>
+
+    <div class="clockcenter">
+        <div class="clock">
+            <div class="days">
+                <div class="mon">M</div>
+                <div class="tue">T</div>
+                <div class="wed">W</div>
+                <div class="thu">T</div>
+                <div class="fri">F</div>
+                <div class="sat">S</div>
+                <div class="sun">S</div>
+            </div>
+
+            <div class="clocktime">
+                <span class="clock-alarm"><i class="fas fa-bell"></i></span>
+                <span class="clock-time"></span>
+                <span class="clock-ampm"></span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
